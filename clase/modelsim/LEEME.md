@@ -5,7 +5,7 @@ Scripts para simular el ERV26 en ModelSim (Intel FPGA Starter Edition) con las m
 ## Uso
 
 1. Abrir ModelSim.
-2. *File → Change Directory…* → `Escritorio\risvV_E5\clase\modelsim`.
+2. *File → Change Directory…* → `<ruta>\risvV_E5\clase\modelsim`.
 3. En la consola de abajo (*Transcript*) escribir uno de estos comandos:
 
 | Comando | Qué hace |
@@ -33,7 +33,7 @@ Las dos carpetas se generan desde WSL. Si cambiás un `.bdf` o un programa, hay 
 cd ~/electro5 && make modelsim
 ```
 
-(o `python3 clase/modelsim/exportar.py` en el proyecto). En WSL esto actualiza la copia de `~/electro5`; para la del Escritorio, correrlo en `/mnt/c/Users/matia/Desktop/risvV_E5`.
+(o `python3 clase/modelsim/exportar.py` en el proyecto). En WSL esto actualiza la copia de `~/electro5`; para la de Windows, correrlo en `/mnt/c/<ruta>/risvV_E5`.
 
 ## Gate-level
 

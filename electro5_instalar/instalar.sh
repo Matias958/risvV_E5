@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Arma ~/electro5 con el entorno de simulacion del ERV26 (risvV_E5).
 # Uso, desde la terminal de Ubuntu (WSL):
-#   bash /mnt/c/Users/matia/Desktop/risvV_E5/electro5_instalar/instalar.sh
+#   bash /mnt/c/<ruta>/risvV_E5/electro5_instalar/instalar.sh
 set -e
 DEST="$HOME/electro5"
 PAQ="$(cd "$(dirname "$0")" && pwd)/electro5.tar.gz"

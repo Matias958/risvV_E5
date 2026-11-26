@@ -93,7 +93,7 @@ Instalar el entorno una vez (borra y reemplaza `~/electro5`):
 
 ```
 cd ~
-bash /mnt/c/Users/matia/Desktop/risvV_E5/electro5_instalar/instalar.sh
+bash /mnt/c/<ruta>/risvV_E5/electro5_instalar/instalar.sh
 ```
 
 Usar:

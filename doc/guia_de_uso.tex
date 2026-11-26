@@ -35,7 +35,7 @@
 
 ERV26 es un procesador RISC-V (RV32I) con pipeline de 5 etapas, hecho con diagramas de bloques de Quartus para la placa DE10-Nano. La placa ejecuta programas escritos en C, muestra imagen por HDMI y lee botones conectados al GPIO. La explicación del diseño está en \code{doc/informe.pdf}.
 
-El proyecto está en \code{C:\textbackslash Users\textbackslash matia\textbackslash Desktop\textbackslash risvV\_E5}:
+El proyecto está en \code{C:\textbackslash <ruta>\textbackslash risvV\_E5}:
 
 \begin{center}
 \begin{tabularx}{\linewidth}{lL}
@@ -105,7 +105,7 @@ Notas:
 \item Si \code{wsl --install} muestra la ayuda en lugar de instalar, WSL ya estaba y falta Ubuntu: \code{wsl --install -d Ubuntu}.
 \item Si da un error de virtualización (por ejemplo \code{0x80370102}), hay que activar la virtualización (\emph{Intel VT-x} / \emph{AMD-V}) en el BIOS de la PC.
 \item En Windows 11, WSL ya muestra ventanas gráficas, así que GTKWave se abre como cualquier programa.
-\item Desde Ubuntu, el disco \code{C:} de Windows está en \code{/mnt/c}. Por ejemplo, el proyecto está en:\\ \code{/mnt/c/Users/matia/Desktop/risvV\_E5}
+\item Desde Ubuntu, el disco \code{C:} de Windows está en \code{/mnt/c}. Por ejemplo, el proyecto está en:\\ \code{/mnt/c/<ruta>/risvV\_E5}
 \item Si te olvidaste la clave de Ubuntu, se cambia desde PowerShell con:\\ \code{wsl -u root passwd TU\_USUARIO}
 \end{itemize}
 
@@ -114,7 +114,7 @@ Notas:
 En la terminal de Ubuntu:
 \begin{lstlisting}
 cd ~
-bash /mnt/c/Users/matia/Desktop/risvV_E5/electro5_instalar/instalar.sh
+bash /mnt/c/<ruta>/risvV_E5/electro5_instalar/instalar.sh
 \end{lstlisting}
 El instalador:
 \begin{enumerate}
@@ -190,7 +190,7 @@ Copia los \code{.hex} del programa elegido a la raíz del proyecto.
 
 En la terminal de Ubuntu (WSL):
 \begin{lstlisting}
-cd /mnt/c/Users/matia/Desktop/risvV_E5
+cd /mnt/c/<ruta>/risvV_E5
 python3 sw/build.py mi_programa.c
 \end{lstlisting}
 Si el programa usa archivos de otra carpeta, se agrega con \code{-I}, por ejemplo:
