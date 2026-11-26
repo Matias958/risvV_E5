@@ -1,0 +1,22 @@
+[*] ERV26 - configuracion del ADV7513 por I2C (make i2c)
+[timestart] 0
+[size] 1700 950
+[pos] -1 -1
+*-23.000000 0
+[sst_width] 220
+[signals_width] 300
+[sst_expanded] 0
+@200
+-== Bus I2C (open-drain con pull-up) ==
+@28
+tb_i2c.scl
+tb_i2c.sda
+@200
+-
+-== Decodificado por el testbench ==
+@28
+tb_i2c.in_frame
+@22
+tb_i2c.byte_rx[7:0]
+@28
+tb_i2c.busy

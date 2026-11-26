@@ -1,0 +1,33 @@
+[*] ERV26 - generador de video HDMI 640x480@60 (make video)
+[timestart] auto
+[size] 1700 950
+[pos] -1 -1
+*-23.000000 0
+[sst_width] 220
+[signals_width] 300
+[sst_expanded] 0
+@200
+-== Contadores: 1 pixel = 2 ciclos ==
+@28
+tb_video.ph
+@24
+tb_video.hc[9:0]
+tb_video.vc[9:0]
+@200
+-
+-== Salida al ADV7513 ==
+@28
+tb_video.hclk
+tb_video.de
+tb_video.hs
+tb_video.vs
+@22
+tb_video.d[23:0]
+@200
+-
+-== Doble buffer ==
+@28
+tb_video.disp_page
+tb_video.page_l
+tb_video.frame_tick
+tb_video.vblank

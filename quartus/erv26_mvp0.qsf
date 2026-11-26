@@ -1,0 +1,48 @@
+# ============================================================================
+# ERV26 MVP-0 - DE10-Nano (Cyclone V SE 5CSEBA6U23I7)
+# Verificar los pines contra el System Builder / manual de Terasic.
+# El top-level puede ser el .bdf que dibujen (cambiar TOP_LEVEL_ENTITY) o
+# de10nano_mvp0_top.v como referencia.
+# ============================================================================
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEBA6U23I7
+set_global_assignment -name TOP_LEVEL_ENTITY de10nano_mvp0_top
+set_global_assignment -name VERILOG_INPUT_VERSION VERILOG_2001
+set_global_assignment -name SEARCH_PATH ../rtl
+
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_regfile.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_imm_gen.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_decoder.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_alu.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_prog_mem.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_fetch.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_operand_build.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_mvp0.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_debounce_pulse.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/de10nano_mvp0_top.v
+set_global_assignment -name SDC_FILE erv26_mvp0.sdc
+
+# ---- Clock ----
+set_location_assignment PIN_V11  -to FPGA_CLK1_50
+# ---- Pulsadores (activos bajo) ----
+set_location_assignment PIN_AH17 -to KEY[0]
+set_location_assignment PIN_AH16 -to KEY[1]
+# ---- Switches ----
+set_location_assignment PIN_Y24  -to SW[0]
+set_location_assignment PIN_W24  -to SW[1]
+set_location_assignment PIN_W21  -to SW[2]
+set_location_assignment PIN_W20  -to SW[3]
+# ---- LEDs ----
+set_location_assignment PIN_W15  -to LED[0]
+set_location_assignment PIN_AA24 -to LED[1]
+set_location_assignment PIN_V16  -to LED[2]
+set_location_assignment PIN_V15  -to LED[3]
+set_location_assignment PIN_AF26 -to LED[4]
+set_location_assignment PIN_AE26 -to LED[5]
+set_location_assignment PIN_Y16  -to LED[6]
+set_location_assignment PIN_AA23 -to LED[7]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK1_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[*]

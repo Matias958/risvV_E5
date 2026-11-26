@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/matia/Desktop/risvV_E5/clase/modelsim
+verv26_core
+Z1 !s110 1795479957
+!i10b 1
+!s100 U5UjaR[:5a9;cL^c<DF;J2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEkRLj=A7liCcWf?PPZMVH3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1795461733
+8C:/Users/matia/Desktop/risvV_E5/gate_sim/simulation/questa/core_gl.vo
+FC:/Users/matia/Desktop/risvV_E5/gate_sim/simulation/questa/core_gl.vo
+!i122 0
+L0 32 103475
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1795479957.000000
+!s107 C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/gate_sim/simulation/questa/core_gl.vo|
+Z6 !s90 -quiet|-work|gate_lib|-timescale|1ns/1ps|+define+GATE|+incdir+C:/Users/matia/Desktop/risvV_E5/rtl|+incdir+C:/Users/matia/Desktop/risvV_E5/sim|C:/Users/matia/Desktop/risvV_E5/gate_sim/simulation/questa/core_gl.vo|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|
+!i113 1
+Z7 o-quiet -work gate_lib -timescale 1ns/1ps
+Z8 !s92 -quiet -work gate_lib -timescale 1ns/1ps +define+GATE +incdir+C:/Users/matia/Desktop/risvV_E5/rtl +incdir+C:/Users/matia/Desktop/risvV_E5/sim
+Z9 tCvgOpt 0
+verv26_dmem
+R1
+!i10b 1
+!s100 zYN^20oF[:93hz9Bj:lVb0
+R2
+I0D^57H[LBY<aKU_kTfA4J2
+R3
+R0
+w1795471482
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v
+!i122 0
+L0 27 62
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/gate_sim/simulation/questa/core_gl.vo|
+R6
+!i113 1
+R7
+R8
+R9
+vtb_core
+R1
+!i10b 1
+!s100 zAH8aGlNCOS1k_VIHklBj1
+R2
+ImhgQQPcF9mWdZYgB0o1[Q1
+R3
+R0
+w1795479146
+8C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v
+FC:/Users/matia/Desktop/risvV_E5/sim/tb_core.v
+!i122 0
+L0 28 183
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9

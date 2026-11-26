@@ -1,0 +1,891 @@
+# do gate.do regresion
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_lib cyclonev_lib 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap gate_lib gate_lib 
+# Modifying modelsim.ini
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-add.imem.hex" "+DMEM=programas/rv32ui-add.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000500" "+LAT_MAX=0" 
+# Start time: 21:25:57 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 448 ciclos, 428 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9001 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:26:19 on Nov 23,2026, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-add.imem.hex" "+DMEM=programas/rv32ui-add.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000500" "+MEM_RTL" 
+# Start time: 21:26:19 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN:# End time: 22:03:13 on Nov 23,2026, Elapsed time: 0:38:07
+# Errors: 0, Warnings: 0
+rs/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9001 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:26:39 on Nov 23,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-addi.imem.hex" "+DMEM=programas/rv32ui-addi.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002a8" "+LAT_MAX=0" 
+# Start time: 21:26:39 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 216 ciclos, 205 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4361 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:26:52 on Nov 23,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-addi.imem.hex" "+DMEM=programas/rv32ui-addi.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002a8" "+MEM_RTL" 
+# Start time: 21:26:52 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 216 ciclos, 205 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4361 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:27:03 on Nov 23,2026, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-and.imem.hex" "+DMEM=programas/rv32ui-and.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004d8" "+LAT_MAX=0" 
+# Start time: 21:27:04 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 468 ciclos, 448 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9401 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:27:37 on Nov 23,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-and.imem.hex" "+DMEM=programas/rv32ui-and.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004d8" "+MEM_RTL" 
+# Start time: 21:27:37 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 468 ciclos, 448 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9401 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:10 on Nov 23,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-andi.imem.hex" "+DMEM=programas/rv32ui-andi.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000001e0" "+LAT_MAX=0" 
+# Start time: 21:28:10 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 172 ciclos, 161 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3481 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:20 on Nov 23,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-andi.imem.hex" "+DMEM=programas/rv32ui-andi.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000001e0" "+MEM_RTL" 
+# Start time: 21:28:20 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 172 ciclos, 161 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3481 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:30 on Nov 23,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-auipc.imem.hex" "+DMEM=programas/rv32ui-auipc.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000064" "+LAT_MAX=0" 
+# Start time: 21:28:30 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 26 ciclos, 21 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 561 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:32 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-auipc.imem.hex" "+DMEM=programas/rv32ui-auipc.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000064" "+MEM_RTL" 
+# Start time: 21:28:32 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 26 ciclos, 21 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 561 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:35 on Nov 23,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-beq.imem.hex" "+DMEM=programas/rv32ui-beq.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e0" "+LAT_MAX=0" 
+# Start time: 21:28:35 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:28:50 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-beq.imem.hex" "+DMEM=programas/rv32ui-beq.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e0" "+MEM_RTL" 
+# Start time: 21:28:50 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:29:06 on Nov 23,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bge.imem.hex" "+DMEM=programas/rv32ui-bge.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000340" "+LAT_MAX=0" 
+# Start time: 21:29:06 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 310 ciclos, 272 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6241 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:29:25 on Nov 23,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bge.imem.hex" "+DMEM=programas/rv32ui-bge.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000340" "+MEM_RTL" 
+# Start time: 21:29:25 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 310 ciclos, 272 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6241 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:29:45 on Nov 23,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bgeu.imem.hex" "+DMEM=programas/rv32ui-bgeu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000374" "+LAT_MAX=0" 
+# Start time: 21:29:45 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 335 ciclos, 297 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6741 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:30:08 on Nov 23,2026, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bgeu.imem.hex" "+DMEM=programas/rv32ui-bgeu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000374" "+MEM_RTL" 
+# Start time: 21:30:08 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 335 ciclos, 297 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6741 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:30:30 on Nov 23,2026, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-blt.imem.hex" "+DMEM=programas/rv32ui-blt.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e0" "+LAT_MAX=0" 
+# Start time: 21:30:30 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:30:47 on Nov 23,2026, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-blt.imem.hex" "+DMEM=programas/rv32ui-blt.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e0" "+MEM_RTL" 
+# Start time: 21:30:47 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:01 on Nov 23,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bltu.imem.hex" "+DMEM=programas/rv32ui-bltu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000314" "+LAT_MAX=0" 
+# Start time: 21:31:01 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 311 ciclos, 279 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:20 on Nov 23,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bltu.imem.hex" "+DMEM=programas/rv32ui-bltu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000314" "+MEM_RTL" 
+# Start time: 21:31:20 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 311 ciclos, 279 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 6261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:37 on Nov 23,2026, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bne.imem.hex" "+DMEM=programas/rv32ui-bne.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e4" "+LAT_MAX=0" 
+# Start time: 21:31:37 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:45 on Nov 23,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-bne.imem.hex" "+DMEM=programas/rv32ui-bne.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002e4" "+MEM_RTL" 
+# Start time: 21:31:45 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 286 ciclos, 254 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5761 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:54 on Nov 23,2026, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-jal.imem.hex" "+DMEM=programas/rv32ui-jal.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000074" "+LAT_MAX=0" 
+# Start time: 21:31:54 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 23 ciclos, 18 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 501 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:56 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-jal.imem.hex" "+DMEM=programas/rv32ui-jal.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000074" "+MEM_RTL" 
+# Start time: 21:31:56 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 23 ciclos, 18 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 501 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:31:58 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-jalr.imem.hex" "+DMEM=programas/rv32ui-jalr.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000114" "+LAT_MAX=0" 
+# Start time: 21:31:58 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 95 ciclos, 78 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 1941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:32:02 on Nov 23,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-jalr.imem.hex" "+DMEM=programas/rv32ui-jalr.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000114" "+MEM_RTL" 
+# Start time: 21:32:03 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 95 ciclos, 78 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 1941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:32:07 on Nov 23,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lb.imem.hex" "+DMEM=programas/rv32ui-lb.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000028c" "+LAT_MAX=0" 
+# Start time: 21:32:07 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 229 ciclos, 216 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:32:22 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lb.imem.hex" "+DMEM=programas/rv32ui-lb.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000028c" "+MEM_RTL" 
+# Start time: 21:32:22 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 229 ciclos, 216 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:32:36 on Nov 23,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lbu.imem.hex" "+DMEM=programas/rv32ui-lbu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000028c" "+LAT_MAX=0" 
+# Start time: 21:32:36 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 229 ciclos, 216 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:32:49 on Nov 23,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lbu.imem.hex" "+DMEM=programas/rv32ui-lbu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000028c" "+MEM_RTL" 
+# Start time: 21:32:49 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 229 ciclos, 216 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:33:02 on Nov 23,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-ld_st.imem.hex" "+DMEM=programas/rv32ui-ld_st.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000e88" "+LAT_MAX=0" 
+# Start time: 21:33:02 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 1075 ciclos, 926 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 21541 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:34:05 on Nov 23,2026, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-ld_st.imem.hex" "+DMEM=programas/rv32ui-ld_st.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000e88" "+MEM_RTL" 
+# Start time: 21:34:05 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 1220 ciclos, 926 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 24441 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:35:42 on Nov 23,2026, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lh.imem.hex" "+DMEM=programas/rv32ui-lh.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002bc" "+LAT_MAX=0" 
+# Start time: 21:35:42 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 245 ciclos, 232 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:36:09 on Nov 23,2026, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lh.imem.hex" "+DMEM=programas/rv32ui-lh.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002bc" "+MEM_RTL" 
+# Start time: 21:36:09 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 245 ciclos, 232 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:36:37 on Nov 23,2026, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lhu.imem.hex" "+DMEM=programas/rv32ui-lhu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002d8" "+LAT_MAX=0" 
+# Start time: 21:36:37 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 254 ciclos, 241 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5121 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:37:02 on Nov 23,2026, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lhu.imem.hex" "+DMEM=programas/rv32ui-lhu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002d8" "+MEM_RTL" 
+# Start time: 21:37:02 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 254 ciclos, 241 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5121 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:37:27 on Nov 23,2026, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lui.imem.hex" "+DMEM=programas/rv32ui-lui.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000080" "+LAT_MAX=0" 
+# Start time: 21:37:27 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 33 ciclos, 28 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 701 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:37:30 on Nov 23,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lui.imem.hex" "+DMEM=programas/rv32ui-lui.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000080" "+MEM_RTL" 
+# Start time: 21:37:30 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 33 ciclos, 28 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 701 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:37:32 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lw.imem.hex" "+DMEM=programas/rv32ui-lw.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002ec" "+LAT_MAX=0" 
+# Start time: 21:37:32 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 259 ciclos, 246 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5221 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:38:01 on Nov 23,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-lw.imem.hex" "+DMEM=programas/rv32ui-lw.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002ec" "+MEM_RTL" 
+# Start time: 21:38:01 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 259 ciclos, 246 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 5221 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:38:30 on Nov 23,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-or.imem.hex" "+DMEM=programas/rv32ui-or.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e4" "+LAT_MAX=0" 
+# Start time: 21:38:31 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 471 ciclos, 451 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9461 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:39:25 on Nov 23,2026, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-or.imem.hex" "+DMEM=programas/rv32ui-or.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e4" "+MEM_RTL" 
+# Start time: 21:39:25 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 471 ciclos, 451 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9461 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:40:22 on Nov 23,2026, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-ori.imem.hex" "+DMEM=programas/rv32ui-ori.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000001fc" "+LAT_MAX=0" 
+# Start time: 21:40:22 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 179 ciclos, 168 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:40:41 on Nov 23,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-ori.imem.hex" "+DMEM=programas/rv32ui-ori.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000001fc" "+MEM_RTL" 
+# Start time: 21:40:41 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 179 ciclos, 168 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3621 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:40:59 on Nov 23,2026, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sb.imem.hex" "+DMEM=programas/rv32ui-sb.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000494" "+LAT_MAX=0" 
+# Start time: 21:40:59 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 434 ciclos, 417 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8721 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:41:39 on Nov 23,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sb.imem.hex" "+DMEM=programas/rv32ui-sb.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000494" "+MEM_RTL" 
+# Start time: 21:41:39 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 467 ciclos, 417 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9381 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:42:21 on Nov 23,2026, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sh.imem.hex" "+DMEM=programas/rv32ui-sh.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000518" "+LAT_MAX=0" 
+# Start time: 21:42:21 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 487 ciclos, 470 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9781 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:43:11 on Nov 23,2026, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sh.imem.hex" "+DMEM=programas/rv32ui-sh.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000518" "+MEM_RTL" 
+# Start time: 21:43:11 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 520 ciclos, 470 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 10441 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:43:59 on Nov 23,2026, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-simple.imem.hex" "+DMEM=programas/rv32ui-simple.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000000c" "+LAT_MAX=0" 
+# Start time: 21:43:59 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 8 ciclos, 4 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 201 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:44:01 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-simple.imem.hex" "+DMEM=programas/rv32ui-simple.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=0000000c" "+MEM_RTL" 
+# Start time: 21:44:01 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 8 ciclos, 4 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 201 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:44:03 on Nov 23,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sll.imem.hex" "+DMEM=programas/rv32ui-sll.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000570" "+LAT_MAX=0" 
+# Start time: 21:44:03 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 476 ciclos, 456 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9561 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:44:41 on Nov 23,2026, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sll.imem.hex" "+DMEM=programas/rv32ui-sll.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000570" "+MEM_RTL" 
+# Start time: 21:44:41 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 476 ciclos, 456 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9561 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:45:17 on Nov 23,2026, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slli.imem.hex" "+DMEM=programas/rv32ui-slli.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002a4" "+LAT_MAX=0" 
+# Start time: 21:45:17 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 215 ciclos, 204 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4341 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:45:33 on Nov 23,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slli.imem.hex" "+DMEM=programas/rv32ui-slli.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002a4" "+MEM_RTL" 
+# Start time: 21:45:33 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 215 ciclos, 204 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4341 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:45:49 on Nov 23,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slt.imem.hex" "+DMEM=programas/rv32ui-slt.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e8" "+LAT_MAX=0" 
+# Start time: 21:45:49 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 442 ciclos, 422 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8881 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:46:20 on Nov 23,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slt.imem.hex" "+DMEM=programas/rv32ui-slt.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e8" "+MEM_RTL" 
+# Start time: 21:46:20 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 442 ciclos, 422 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8881 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:46:49 on Nov 23,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slti.imem.hex" "+DMEM=programas/rv32ui-slti.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000294" "+LAT_MAX=0" 
+# Start time: 21:46:49 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 211 ciclos, 200 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:47:04 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-slti.imem.hex" "+DMEM=programas/rv32ui-slti.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000294" "+MEM_RTL" 
+# Start time: 21:47:04 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 211 ciclos, 200 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:47:19 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sltiu.imem.hex" "+DMEM=programas/rv32ui-sltiu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000294" "+LAT_MAX=0" 
+# Start time: 21:47:19 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 211 ciclos, 200 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:47:34 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sltiu.imem.hex" "+DMEM=programas/rv32ui-sltiu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000294" "+MEM_RTL" 
+# Start time: 21:47:34 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 211 ciclos, 200 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4261 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:47:49 on Nov 23,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sltu.imem.hex" "+DMEM=programas/rv32ui-sltu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e8" "+LAT_MAX=0" 
+# Start time: 21:47:49 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 442 ciclos, 422 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8881 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:48:22 on Nov 23,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sltu.imem.hex" "+DMEM=programas/rv32ui-sltu.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e8" "+MEM_RTL" 
+# Start time: 21:48:22 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 442 ciclos, 422 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8881 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:48:56 on Nov 23,2026, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sra.imem.hex" "+DMEM=programas/rv32ui-sra.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000005bc" "+LAT_MAX=0" 
+# Start time: 21:48:56 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 495 ciclos, 475 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:49:50 on Nov 23,2026, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sra.imem.hex" "+DMEM=programas/rv32ui-sra.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000005bc" "+MEM_RTL" 
+# Start time: 21:49:50 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 495 ciclos, 475 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9941 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:50:39 on Nov 23,2026, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srai.imem.hex" "+DMEM=programas/rv32ui-srai.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002d8" "+LAT_MAX=0" 
+# Start time: 21:50:40 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 230 ciclos, 219 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4641 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:51:04 on Nov 23,2026, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srai.imem.hex" "+DMEM=programas/rv32ui-srai.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002d8" "+MEM_RTL" 
+# Start time: 21:51:04 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 230 ciclos, 219 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4641 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:51:28 on Nov 23,2026, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srl.imem.hex" "+DMEM=programas/rv32ui-srl.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000005a4" "+LAT_MAX=0" 
+# Start time: 21:51:28 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 489 ciclos, 469 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9821 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:52:08 on Nov 23,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srl.imem.hex" "+DMEM=programas/rv32ui-srl.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000005a4" "+MEM_RTL" 
+# Start time: 21:52:08 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 489 ciclos, 469 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9821 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:52:48 on Nov 23,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srli.imem.hex" "+DMEM=programas/rv32ui-srli.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002c0" "+LAT_MAX=0" 
+# Start time: 21:52:48 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 224 ciclos, 213 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4521 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:53:07 on Nov 23,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-srli.imem.hex" "+DMEM=programas/rv32ui-srli.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000002c0" "+MEM_RTL" 
+# Start time: 21:53:07 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 224 ciclos, 213 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 4521 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:53:25 on Nov 23,2026, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-st_ld.imem.hex" "+DMEM=programas/rv32ui-st_ld.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000708" "+LAT_MAX=0" 
+# Start time: 21:53:25 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 451 ciclos, 446 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9061 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:54:15 on Nov 23,2026, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-st_ld.imem.hex" "+DMEM=programas/rv32ui-st_ld.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000708" "+MEM_RTL" 
+# Start time: 21:54:15 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 500 ciclos, 446 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 10041 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:55:03 on Nov 23,2026, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sub.imem.hex" "+DMEM=programas/rv32ui-sub.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e0" "+LAT_MAX=0" 
+# Start time: 21:55:03 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 440 ciclos, 420 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8841 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:55:37 on Nov 23,2026, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sub.imem.hex" "+DMEM=programas/rv32ui-sub.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e0" "+MEM_RTL" 
+# Start time: 21:55:37 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 440 ciclos, 420 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 8841 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:56:10 on Nov 23,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sw.imem.hex" "+DMEM=programas/rv32ui-sw.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000524" "+LAT_MAX=0" 
+# Start time: 21:56:11 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 494 ciclos, 477 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9921 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:57:01 on Nov 23,2026, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-sw.imem.hex" "+DMEM=programas/rv32ui-sw.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000524" "+MEM_RTL" 
+# Start time: 21:57:01 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 527 ciclos, 477 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 10581 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:57:53 on Nov 23,2026, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-xor.imem.hex" "+DMEM=programas/rv32ui-xor.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e0" "+LAT_MAX=0" 
+# Start time: 21:57:53 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 470 ciclos, 450 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9441 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:58:49 on Nov 23,2026, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-xor.imem.hex" "+DMEM=programas/rv32ui-xor.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=000004e0" "+MEM_RTL" 
+# Start time: 21:58:49 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 470 ciclos, 450 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 9441 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:59:42 on Nov 23,2026, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-xori.imem.hex" "+DMEM=programas/rv32ui-xori.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000204" "+LAT_MAX=0" 
+# Start time: 21:59:42 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 181 ciclos, 170 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3661 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 21:59:58 on Nov 23,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim -quiet -t 1ps -onfinish stop -L cyclonev_lib gate_lib.tb_core "+IMEM=programas/rv32ui-xori.imem.hex" "+DMEM=programas/rv32ui-xori.dmem.hex" "+TRACE=gate.traza" "+TOHOST_PC=00000204" "+MEM_RTL" 
+# Start time: 21:59:58 on Nov 23,2026
+# ** Warning: Design size of 25739 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# FIN: 181 ciclos, 170 instrucciones, TOHOST=00000001 (PASS)
+# ** Note: $finish    : C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v(208)
+#    Time: 3661 ns  Iteration: 0  Instance: /tb_core
+# Break in Module tb_core at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# Stopped at C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v line 208
+# End time: 22:00:17 on Nov 23,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# 
+# Gate-level: 80/80 corridas OK (lat0 m10k)
+#  quit -f

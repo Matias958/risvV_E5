@@ -1,0 +1,72 @@
+[*] ERV26 - pipeline de 5 etapas (make pipeline)
+[timestart] 0
+[size] 1700 950
+[pos] -1 -1
+*-15.000000 0
+[sst_width] 220
+[signals_width] 300
+[sst_expanded] 0
+[sst_vpaned_height] 250
+@28
+tb_core.clk
+tb_core.rst_n
+@200
+-
+-== Instruccion en cada etapa (0 = burbuja) ==
+@22
+tb_core.IF_pc[31:0]
+^>1 @@DIS@@
+@4022
+tb_core.ID_instr[31:0]
+tb_core.EX_instr[31:0]
+tb_core.MEM_instr[31:0]
+tb_core.WB_instr[31:0]
+@200
+-
+-== Hazards y saltos ==
+@28
+tb_core.stall_load_use
+tb_core.espera_memoria
+tb_core.salto_en_ID
+tb_core.corrige_en_EX
+tb_core.flush_ID
+@200
+-
+-== Forwarding hacia EX ==
+@28
+tb_core.fwd_rs1_desde_MEM
+tb_core.fwd_rs1_desde_WB
+tb_core.fwd_rs2_desde_MEM
+tb_core.fwd_rs2_desde_WB
+@200
+-
+-== Memoria de datos ==
+@28
+tb_core.dmem_req
+tb_core.dmem_we
+tb_core.dmem_ready
+@22
+tb_core.dmem_addr[31:0]
+tb_core.dmem_addr_next[31:0]
+tb_core.dmem_wdata[31:0]
+tb_core.dmem_rdata[31:0]
+@200
+-
+-== Registros (decimal) ==
+@424
+tb_core.t0[31:0]
+tb_core.t1[31:0]
+tb_core.t2[31:0]
+tb_core.a0[31:0]
+tb_core.a1[31:0]
+tb_core.a2[31:0]
+tb_core.a3[31:0]
+tb_core.a4[31:0]
+tb_core.a5[31:0]
+tb_core.a6[31:0]
+tb_core.s0[31:0]
+tb_core.s1[31:0]
+tb_core.s2[31:0]
+tb_core.t4[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

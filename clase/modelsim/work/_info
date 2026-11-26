@@ -1,0 +1,806 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/matia/Desktop/risvV_E5/clase/modelsim
+verv26_alu
+Z1 !s110 1795479903
+!i10b 1
+!s100 =JF0ARNFmeLnbJ=K:GB9k3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGlneJdm>XX5Rb:kLEJeen3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1795471482
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v
+!i122 9
+L0 13 24
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1795479903.000000
+!s107 C:/Users/matia/Desktop/risvV_E5/sim/rv_dis.vh|C:/Users/matia/Desktop/risvV_E5/sim/vista_pipeline.vh|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_defs.vh|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_i2c.v|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_video.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_board.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_debounce_pulse.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v|gen/risvV_E5_bdf.v|gen/erv26_core_bdf.v|
+Z7 !s90 -reportprogress|300|-quiet|-timescale|1ns/1ps|+incdir+C:/Users/matia/Desktop/risvV_E5/rtl|+incdir+C:/Users/matia/Desktop/risvV_E5/sim|+define+TOP=risvV_E5|gen/erv26_core_bdf.v|gen/risvV_E5_bdf.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_debounce_pulse.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_board.v|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_video.v|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_i2c.v|
+!i113 1
+Z8 o-quiet -timescale 1ns/1ps
+Z9 !s92 -quiet -timescale 1ns/1ps +incdir+C:/Users/matia/Desktop/risvV_E5/rtl +incdir+C:/Users/matia/Desktop/risvV_E5/sim +define+TOP=risvV_E5
+Z10 tCvgOpt 0
+verv26_board_ctrl
+R1
+!i10b 1
+!s100 S0=@nhB=CbLzVTcnKYSnL1
+R2
+IFQjhfiG[dBSkD4<2?C[4m1
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v
+!i122 9
+L0 8 19
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 C:/Users/matia/Desktop/risvV_E5/sim/rv_dis.vh|C:/Users/matia/Desktop/risvV_E5/sim/vista_pipeline.vh|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_defs.vh|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_i2c.v|C:/Users/matia/Desktop/risvV_E5/sim/video/tb_video.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_board.v|C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_debounce_pulse.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v|C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v|C:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v|gen/risvV_E5_bdf.v|gen/erv26_core_bdf.v|
+R7
+!i113 1
+R8
+R9
+R10
+verv26_branch_unit
+R1
+!i10b 1
+!s100 ZZ@MI[i75BQbEC1hOM__:1
+R2
+IZ2HHM0Rn@7OYP[7h=?VgR3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v
+!i122 9
+L0 18 39
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_bus
+R1
+!i10b 1
+!s100 cb4UdI]=TAf>Im;hGiC]^2
+R2
+IU`h=8n`KeQQ4`LR8;W5P:0
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v
+!i122 9
+L0 8 28
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_core
+R1
+!i10b 1
+!s100 Bf_lEX^OOnDY9i0@D0BNJ0
+R2
+IXd2m;W[@]kT6C06dOJ`R<0
+R3
+R0
+Z12 w1795479138
+8gen/erv26_core_bdf.v
+Fgen/erv26_core_bdf.v
+!i122 9
+L0 1 380
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_debounce_pulse
+R1
+!i10b 1
+!s100 kVB]6VXRiJ9nk]Ua3bn_90
+R2
+IR_KQXMA^o_hZ1GQ?B:0]l2
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_debounce_pulse.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_debounce_pulse.v
+!i122 9
+L0 5 26
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_decoder
+R1
+!i10b 1
+!s100 DH1BdnmdYO<7?9YW>ckYP3
+R2
+IEdG:eS9^[?kcE[:b0PN]f3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v
+!i122 9
+L0 15 126
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_dmem
+R1
+!i10b 1
+!s100 TMjD_SjF5fhT]`8zn>VcV3
+R2
+IOPj68Ke?1KHI?P<Kzk[A91
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v
+!i122 9
+L0 27 62
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_ex_mem
+R1
+!i10b 1
+!s100 C@]2OZfg?I5MWEX0OTZ_z0
+R2
+I6j_LLa4kYEJDEnU>67C^C0
+R3
+R0
+Z13 w1795471483
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v
+!i122 9
+L0 4 42
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_ex_result
+R1
+!i10b 1
+!s100 ;h6;@`_dlP_f0lgUMHf>T1
+R2
+IPiGnWj8_Jo]Rm>KhhoX8a2
+R3
+R0
+R13
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v
+!i122 9
+L0 8 8
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_forward_unit
+R1
+!i10b 1
+!s100 ?aLUF=BXfLK16:?X^l`8R2
+R2
+IW6CSW=:j2nYf>YT7Z9MNg3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v
+!i122 9
+L0 10 29
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_hazard_unit
+R1
+!i10b 1
+!s100 ?]z_N_^QKGI`?H6aMm8V?0
+R2
+I[`fGJInKJ>@<?n0IiDB:Q0
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v
+!i122 9
+L0 20 29
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_hdmi_init
+R1
+!i10b 1
+!s100 LzFQ1XI`7jbM_CTdhBRaz1
+R2
+Ic3MH3@Z=R9j?MJDFdF_2^1
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v
+!i122 9
+L0 24 107
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_id_ex
+R1
+!i10b 1
+!s100 48BUI8LH_OZ0T;mi8UNgi3
+R2
+I]C7KC[oBFLAG27F@Md3kB3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v
+!i122 9
+L0 6 74
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_id_predict
+R1
+!i10b 1
+!s100 ?<2AzVng95B@EOEFj^N;k1
+R2
+IEGa^I7:Qb7G<]SZXUeCKJ1
+R3
+R0
+R13
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v
+!i122 9
+L0 12 16
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_if_id
+R1
+!i10b 1
+!s100 CdG_FjiM5e@Y;gHHT4JJ_1
+R2
+Iz4FEJJ3f8i6h6H`0ejf]31
+R3
+R0
+R13
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v
+!i122 9
+L0 7 21
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_imem
+R1
+!i10b 1
+!s100 MRDFSzZ<CMT2eBL^1NO1A0
+R2
+I=JoJEi0C7R@9YOoVQTCf01
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v
+!i122 9
+L0 8 17
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_imm_gen
+R1
+!i10b 1
+!s100 O[@QK1:W8gU[9TCXQ79mR0
+R2
+I^3hP^ziXj@amG:@A1DO?`1
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v
+!i122 9
+L0 8 16
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_io
+R1
+!i10b 1
+!s100 LZnYf]039VB^2=X?if>bl0
+R2
+Ih>;C;imi2=JCVif1>KW4O0
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v
+!i122 9
+L0 15 55
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_lsu
+R1
+!i10b 1
+!s100 ][7<]<<^CVK;zbC0LNe3Q1
+R2
+IYYZQ4`W:U60gBzI6:D7<@1
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v
+!i122 9
+L0 12 43
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_mem_ctrl
+R1
+!i10b 1
+!s100 Hl7Qg?J58XLflYSM9:5^M2
+R2
+IY;EE7j5G^[l6`[Lm`EI>52
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v
+!i122 9
+L0 15 41
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_mem_wb
+R1
+!i10b 1
+!s100 oj>XCmznFkPZ^l7WMmZhO2
+R2
+I8<1jEG6anV9WSczQUJ@7l3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v
+!i122 9
+L0 4 30
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_operand_build
+R1
+!i10b 1
+!s100 KBTf_k]SB@;o6Z@]]5Dka2
+R2
+I7:2Bm0gMQ@o5bza1V_D7^0
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v
+!i122 9
+L0 10 20
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_pc_select
+R1
+!i10b 1
+!s100 CTJfBSB7Foj^Vde3F>B=T3
+R2
+I?;1;0oRiTHzAFFRm6OU?T0
+R3
+R0
+R13
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v
+!i122 9
+L0 11 18
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_regfile
+R1
+!i10b 1
+!s100 >6Ke;oNa;@kLh4e9Va0hm2
+R2
+IQ;VHXQ>knb`13XaGBnR933
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v
+!i122 9
+L0 15 38
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_video
+R1
+!i10b 1
+!s100 _E[cP[YBXA]A@U<R7o9ZG3
+R2
+IPcn7^b__Ufkf^5A2F]YSD3
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v
+!i122 9
+L0 21 104
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_wb_commit
+R1
+!i10b 1
+!s100 CBYfI<;]B^A5?zBL;L<<61
+R2
+Ih0IE2l;kib@60B_;OTX:93
+R3
+R0
+R13
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v
+!i122 9
+L0 5 24
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+verv26_wb_select
+R1
+!i10b 1
+!s100 WaMX9CXH_Y8@m61i_==[e0
+R2
+Im:;:3md]8@Q;PH445:SCz0
+R3
+R0
+R4
+8C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v
+FC:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v
+!i122 9
+L0 4 8
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+vrisvV_E5
+R1
+!i10b 1
+!s100 dek7M2lR;aB_4Y?G;8<Pc0
+R2
+IQmlcPMC7KmHbM@m8LH^b02
+R3
+R0
+R12
+8gen/risvV_E5_bdf.v
+Fgen/risvV_E5_bdf.v
+!i122 9
+L0 1 145
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+nrisv@v_@e5
+vtb_board
+R1
+!i10b 1
+!s100 6WAUBA5C5cl4M8G=Z]4f^0
+R2
+IIAVGgU8GJ2bREG5jG[`Nj0
+R3
+R0
+w1795477785
+8C:/Users/matia/Desktop/risvV_E5/sim/tb_board.v
+FC:/Users/matia/Desktop/risvV_E5/sim/tb_board.v
+!i122 9
+L0 13 72
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+vtb_core
+R1
+!i10b 1
+!s100 9PXR9WXB0mibfgohKXkA30
+R2
+Ib:Qg6RON8K<lRWDmlz^=U3
+R3
+R0
+w1795479146
+8C:/Users/matia/Desktop/risvV_E5/sim/tb_core.v
+FC:/Users/matia/Desktop/risvV_E5/sim/tb_core.v
+FC:/Users/matia/Desktop/risvV_E5/sim/vista_pipeline.vh
+FC:/Users/matia/Desktop/risvV_E5/sim/rv_dis.vh
+!i122 9
+L0 28 308
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+vtb_i2c
+R1
+!i10b 1
+!s100 G[0K^>7X9OfIf?P6ga9@=3
+R2
+I8AkUW2U;DB:zeeM@K`8Bz2
+R3
+R0
+w1795477786
+8C:/Users/matia/Desktop/risvV_E5/sim/video/tb_i2c.v
+FC:/Users/matia/Desktop/risvV_E5/sim/video/tb_i2c.v
+!i122 9
+L0 4 22
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10
+vtb_video
+R1
+!i10b 1
+!s100 bo<6acEG=E4729CekGD8<2
+R2
+IVRTl9m`AIE5IY[L1@He]P3
+R3
+R0
+w1795479395
+8C:/Users/matia/Desktop/risvV_E5/sim/video/tb_video.v
+FC:/Users/matia/Desktop/risvV_E5/sim/video/tb_video.v
+!i122 9
+L0 4 105
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+R10

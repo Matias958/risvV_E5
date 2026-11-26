@@ -1,0 +1,37 @@
+[*] ERV26 - placa completa con la demo de LEDs (make placa)
+[timestart] 0
+[size] 1700 950
+[pos] -1 -1
+*-24.000000 0
+[sst_width] 220
+[signals_width] 300
+[sst_expanded] 0
+@200
+-== Entradas de la placa ==
+@28
+tb_board.key[1:0]
+tb_board.sw[3:0]
+@200
+-
+-== LEDs ==
+@22
+tb_board.led[7:0]
+@28
+tb_board.led[7:0]
+@200
+-
+-== Procesador ==
+@28
+tb_board.dut.rst_n
+tb_board.dut.en
+@22
+tb_board.dut.imem_addr[31:0]
+@200
+-
+-== Bus de datos: escrituras a E/S (LEDs = 0x80000000) ==
+@28
+tb_board.dut.io_req
+tb_board.dut.dmem_we
+@22
+tb_board.dut.dmem_addr[31:0]
+tb_board.dut.dmem_wdata[31:0]

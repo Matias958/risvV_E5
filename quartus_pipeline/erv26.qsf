@@ -1,0 +1,114 @@
+# ============================================================================
+# ERV26 con pipeline - DE10-Nano (Cyclone V SE 5CSEBA6U23I7)
+# Verificar los pines contra el System Builder / manual de Terasic.
+# Proyecto de referencia con top en Verilog (de10nano_erv26_top.v).
+# El proyecto a entregar, con top por bloques, es ../risvV_E5.qpf.
+#
+# Programa: python3 sw/build.py <prog.c> -o quartus_pipeline
+# Despues de cambiar el programa hace falta recompilar.
+# ============================================================================
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEBA6U23I7
+set_global_assignment -name TOP_LEVEL_ENTITY de10nano_erv26_top
+set_global_assignment -name VERILOG_INPUT_VERSION VERILOG_2001
+set_global_assignment -name SEARCH_PATH ../rtl
+
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_regfile.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_imm_gen.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_decoder.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_alu.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_operand_build.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_branch_unit.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_lsu.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_hazard_unit.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_forward_unit.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_pc_select.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_if_id.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_id_predict.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_id_ex.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_ex_result.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_ex_mem.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_mem_ctrl.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_wb_select.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_mem_wb.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_wb_commit.v
+set_global_assignment -name BDF_FILE ../rtl/erv26_core.bdf
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_imem.v
+set_global_assignment -name VERILOG_FILE ../rtl/erv26_dmem.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_io.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_bus.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_board_ctrl.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_video.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/erv26_hdmi_init.v
+set_global_assignment -name VERILOG_FILE ../rtl/board/de10nano_erv26_top.v
+set_global_assignment -name SDC_FILE erv26.sdc
+
+# ---- Clock ----
+set_location_assignment PIN_V11  -to FPGA_CLK1_50
+# ---- Pulsadores (activos bajo) ----
+set_location_assignment PIN_AH17 -to KEY[0]
+set_location_assignment PIN_AH16 -to KEY[1]
+# ---- Switches ----
+set_location_assignment PIN_Y24  -to SW[0]
+set_location_assignment PIN_W24  -to SW[1]
+set_location_assignment PIN_W21  -to SW[2]
+set_location_assignment PIN_W20  -to SW[3]
+# ---- LEDs ----
+set_location_assignment PIN_W15  -to LED[0]
+set_location_assignment PIN_AA24 -to LED[1]
+set_location_assignment PIN_V16  -to LED[2]
+set_location_assignment PIN_V15  -to LED[3]
+set_location_assignment PIN_AF26 -to LED[4]
+set_location_assignment PIN_AE26 -to LED[5]
+set_location_assignment PIN_Y16  -to LED[6]
+set_location_assignment PIN_AA23 -to LED[7]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK1_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[*]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED[*]
+
+# ---- HDMI (transmisor ADV7513) ----
+set_location_assignment PIN_AG5  -to HDMI_TX_CLK
+set_location_assignment PIN_AD19 -to HDMI_TX_DE
+set_location_assignment PIN_T8   -to HDMI_TX_HS
+set_location_assignment PIN_V13  -to HDMI_TX_VS
+set_location_assignment PIN_U10  -to HDMI_I2C_SCL
+set_location_assignment PIN_AA4  -to HDMI_I2C_SDA
+set_location_assignment PIN_AD12 -to HDMI_TX_D[0]
+set_location_assignment PIN_AE12 -to HDMI_TX_D[1]
+set_location_assignment PIN_W8   -to HDMI_TX_D[2]
+set_location_assignment PIN_Y8   -to HDMI_TX_D[3]
+set_location_assignment PIN_AD11 -to HDMI_TX_D[4]
+set_location_assignment PIN_AD10 -to HDMI_TX_D[5]
+set_location_assignment PIN_AE11 -to HDMI_TX_D[6]
+set_location_assignment PIN_Y5   -to HDMI_TX_D[7]
+set_location_assignment PIN_AF10 -to HDMI_TX_D[8]
+set_location_assignment PIN_Y4   -to HDMI_TX_D[9]
+set_location_assignment PIN_AE9  -to HDMI_TX_D[10]
+set_location_assignment PIN_AB4  -to HDMI_TX_D[11]
+set_location_assignment PIN_AE7  -to HDMI_TX_D[12]
+set_location_assignment PIN_AF6  -to HDMI_TX_D[13]
+set_location_assignment PIN_AF8  -to HDMI_TX_D[14]
+set_location_assignment PIN_AF5  -to HDMI_TX_D[15]
+set_location_assignment PIN_AE4  -to HDMI_TX_D[16]
+set_location_assignment PIN_AH2  -to HDMI_TX_D[17]
+set_location_assignment PIN_AH4  -to HDMI_TX_D[18]
+set_location_assignment PIN_AH5  -to HDMI_TX_D[19]
+set_location_assignment PIN_AH6  -to HDMI_TX_D[20]
+set_location_assignment PIN_AG6  -to HDMI_TX_D[21]
+set_location_assignment PIN_AF9  -to HDMI_TX_D[22]
+set_location_assignment PIN_AE8  -to HDMI_TX_D[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_TX_*
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HDMI_I2C_*
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to HDMI_TX_*
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to HDMI_I2C_*
+
+# ---- Botones del juego en GPIO_0 (JP1 pines 1-4, a GND al apretar) ----
+#   GPIO_0[0] izquierda, [1] derecha, [2] fuego, [3] start
+set_location_assignment PIN_V12  -to GPIO_0[0]
+set_location_assignment PIN_E8   -to GPIO_0[1]
+set_location_assignment PIN_W12  -to GPIO_0[2]
+set_location_assignment PIN_D11  -to GPIO_0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[*]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to GPIO_0[*]

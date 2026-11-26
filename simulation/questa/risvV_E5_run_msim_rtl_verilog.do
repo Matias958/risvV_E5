@@ -1,0 +1,34 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_regfile.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_branch_unit.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_lsu.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_hazard_unit.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_forward_unit.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_pc_select.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_if_id.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_predict.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_id_ex.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_mem.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_ctrl.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_select.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_mem_wb.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_wb_commit.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imem.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_dmem.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl/board {C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_bus.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl/board {C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_io.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl/board {C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_board_ctrl.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl/board {C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_video.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl/board {C:/Users/matia/Desktop/risvV_E5/rtl/board/erv26_hdmi_init.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_imm_gen.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_decoder.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_alu.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_operand_build.v}
+vlog  -work work +incdir+C:/Users/matia/Desktop/risvV_E5/rtl {C:/Users/matia/Desktop/risvV_E5/rtl/erv26_ex_result.v}
+

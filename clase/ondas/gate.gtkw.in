@@ -1,0 +1,43 @@
+[*] ERV26 - netlist post-fit de Quartus (make gate-pipeline)
+[timestart] 90000
+[size] 1700 950
+[pos] -1 -1
+*-15.000000 0
+[sst_width] 220
+[signals_width] 300
+[sst_expanded] 0
+@200
+-Netlist: solo se ven los puertos del nucleo
+-
+@28
+tb_core.clk
+tb_core.rst_n
+@22
+tb_core.imem_addr[31:0]
+^>1 @@DIS@@
+@4022
+tb_core.imem_rdata[31:0]
+@200
+-
+-== Instruccion que se retira (commit) ==
+@28
+tb_core.c_valid
+@22
+tb_core.c_pc[31:0]
+@4022
+tb_core.c_instr[31:0]
+@28
+tb_core.c_we
+@22
+tb_core.c_data[31:0]
+@200
+-
+-== Memoria de datos ==
+@28
+tb_core.dmem_req
+tb_core.dmem_we
+tb_core.dmem_ready
+@22
+tb_core.dmem_addr[31:0]
+tb_core.dmem_wdata[31:0]
+tb_core.dmem_rdata[31:0]
